@@ -1,0 +1,27 @@
+title: Migrate to MCP SDK
+slug: migrate-to-mcp-sdk
+createdAt: 2025-08-26T22:40:10.040Z
+updatedAt: 2025-08-26T22:40:10.040Z
+status: awaiting-approval
+branch: null
+reviewRequired: true
+risks:
+  - id: sdk-compatibility
+    summary: SDK compatibility issues
+    severity: high
+    owner: dev
+  - id: streaming-changes
+    summary: Streaming changes from JSON lines to progress events
+    severity: medium
+    owner: dev
+  - id: schema-validation
+    summary: Tool schema validation differences
+    severity: low
+    owner: dev
+priority: normal
+fastPath: false
+toolBudget: 12
+timeBudgetSec: 600
+autoApproveProfile: balanced
+indexVersion: 1
+auditLog: .kilocode/logs/migrate-to-mcp-sdk-audit.jsonl

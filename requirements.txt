@@ -1,3 +1,5 @@
 fastmcp
 pydantic
 orgo
+pyautogui 
+pillow
